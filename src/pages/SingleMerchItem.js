@@ -25,7 +25,7 @@ export default function SingleMerchItem(props) {
       <h1>Product</h1>
       <div className="merch-content">
         <h3>
-          Item: {merch.title} Available: {merch.rating?.count}
+          Item: {merch.title}- <span>Available: {merch.rating?.count}</span>
         </h3>
         <p className="price">Price - ${merch.price}</p>
 

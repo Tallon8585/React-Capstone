@@ -1,19 +1,21 @@
 .contact-page {
   background-color: gray;
-  height: 87.4vh;
 
-  // padding-bottom: 11.2rem;
+  height: 100%;
+
   .top-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 1.5rem;
+    margin: 2rem 0;
   }
 
   .bottom-content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 8rem 0;
 
     form {
       display: flex;

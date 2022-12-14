@@ -35,24 +35,14 @@
   }
   @media (max-width: 425px) {
     h1 {
-      display: flex;
-      justify-content: center;
-      margin-top: 5rem;
       margin-bottom: 8rem;
     }
     .top-content {
-      display: flex;
-      flex-direction: column;
       height: 23rem;
       background-image: url("../images/bob-canning-r53rNKb_7s8-unsplash.jpg");
       background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
 
       h1 {
-        display: flex;
-        justify-content: center;
-        text-shadow: 2px 2px rgb(246, 147, 147);
         font-size: 2rem;
         font-weight: 900;
       }
@@ -66,9 +56,7 @@
     }
 
     .mid-content {
-      display: flex;
       flex-direction: column;
-      justify-content: space-around;
     }
   }
 }

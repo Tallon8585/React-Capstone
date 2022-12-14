@@ -10,3 +10,16 @@
     display: flex;
   }
 }
+
+@media (max-width: 425px) {
+  .about-content {
+    height: 100%;
+    font-size: 1.3rem;
+    line-height: 30px;
+
+    p {
+      border: 5px solid black;
+      padding: 20px;
+    }
+  }
+}

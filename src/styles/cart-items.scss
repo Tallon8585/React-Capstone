@@ -20,4 +20,14 @@
     width: 12rem;
     height: 15rem;
   }
+
+  h4 {
+    font-weight: 900;
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 425px) {
+  .cart-items-container {
+    width: 23rem;
+  }
 }

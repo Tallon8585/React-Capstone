@@ -45,45 +45,20 @@
   }
 
   @media (max-width: 425px) {
-    .title {
-      display: flex;
-      justify-content: center;
-      font-size: 2rem;
-      color: white;
-    }
-
     .category-btns {
-      display: flex;
       flex-direction: column;
       align-items: center;
-
-      button {
-        display: flex;
-        margin: 2rem;
-        padding: 5px;
-        color: white;
-        background-color: rgb(6, 165, 6);
-        font-size: 1rem;
-        border-radius: 5px;
-        cursor: pointer;
-      }
     }
 
     .mid-content {
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      background-color: gray;
     }
 
     .clear-cart {
-      display: flex;
-      justify-content: center;
-      margin: 10px;
-
       button {
         font-size: 1.5rem;
-        border-radius: 10px;
+
         background-color: red;
         color: white;
         cursor: pointer;

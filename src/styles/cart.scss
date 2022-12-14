@@ -34,4 +34,10 @@
       cursor: pointer;
     }
   }
+
+  @media (max-width: 425px) {
+    .checkout-content {
+      font-size: 1.3rem;
+    }
+  }
 }

@@ -16,12 +16,22 @@
       font-size: 2rem;
     }
 
+    span {
+      margin-left: 5px;
+      color: rgba(185, 0, 0, 0.893);
+    }
+
+    .price {
+      font-weight: 900;
+    }
+
     p {
       font-size: 20px;
     }
     .img-wrapper {
       display: flex;
       justify-content: center;
+      border: 5px solid black;
 
       img {
         width: 20rem;
@@ -36,6 +46,20 @@
       font-size: 1rem;
       background-color: red;
       border-radius: 5px;
+    }
+  }
+  @media (max-width: 425px) {
+    h1 {
+      font-size: 2rem;
+    }
+    .merch-content {
+      h3 {
+        font-size: 1.4rem;
+      }
+
+      button {
+        margin-bottom: 20px;
+      }
     }
   }
 }
