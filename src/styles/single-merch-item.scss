@@ -1,0 +1,41 @@
+.item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+  }
+
+  .merch-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 20px;
+    }
+    .img-wrapper {
+      display: flex;
+      justify-content: center;
+
+      img {
+        width: 20rem;
+        height: 23rem;
+      }
+    }
+
+    button {
+      display: flex;
+      align-self: center;
+      margin-top: 1rem;
+      font-size: 1rem;
+      background-color: red;
+      border-radius: 5px;
+    }
+  }
+}

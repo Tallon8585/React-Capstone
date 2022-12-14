@@ -1,0 +1,23 @@
+.cart-items-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 28rem;
+  margin: 2rem;
+  background-color: white;
+
+  h3 {
+    a {
+      text-decoration: none;
+      color: rgb(92, 88, 88);
+    }
+  }
+
+  img {
+    display: flex;
+    width: 12rem;
+    height: 15rem;
+  }
+}
